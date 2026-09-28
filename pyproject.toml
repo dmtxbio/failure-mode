@@ -1,0 +1,18 @@
+[project]
+name = "failure-mode"
+version = "0.1.0"
+description = "Explore published FDA complete response letters"
+authors = [{name = "dmtxbio"}]
+requires-python = ">=3.10"
+
+[project.urls]
+Repository = "https://github.com/dmtxbio/failure-mode"
+Issues = "https://github.com/dmtxbio/failure-mode/issues"
+Author = "https://github.com/dmtxbio"
+
+[project.scripts]
+failure-mode-ingest = "failure_mode.ingest:main"
+failure-mode-server = "failure_mode.server:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

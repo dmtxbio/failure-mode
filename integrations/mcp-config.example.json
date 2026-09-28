@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "public-good-corpus": {
+      "command": "/ABSOLUTE/PATH/TO/failure-mode/.venv/bin/python",
+      "args": ["/ABSOLUTE/PATH/TO/failure-mode/integrations/public_good_mcp.py"],
+      "env": {
+        "PUBLIC_GOOD_API_BASE": "http://127.0.0.1:8000"
+      }
+    }
+  }
+}

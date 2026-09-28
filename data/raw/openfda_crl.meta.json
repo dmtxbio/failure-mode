@@ -1,0 +1,7 @@
+{
+  "source_url": "https://api.fda.gov/transparency/crl.json?limit=1000",
+  "fetched_at": "2026-09-28T05:10:08.703265+00:00",
+  "sha256": "a938476dbfdd1dcfbaf9ec1db4b3c6d175753cba936105af7f6495c5a9d74e89",
+  "source_updated": "2026-08-13",
+  "record_count": 458
+}
